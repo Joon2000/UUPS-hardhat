@@ -13,3 +13,8 @@ npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
 
 https://medium.com/coinmonks/how-to-create-an-uups-proxy-66eca257b2f9
+
+```bash
+npx hardhat node
+npx hardhat run scripts/uups.ts --network localhost
+```
